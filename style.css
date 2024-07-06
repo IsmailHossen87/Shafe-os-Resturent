@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+font-family: "Work Sans", sans-serif;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.butn{
+    /* Shop The Hotest Food */
+position: static;
+width: 215px;
+height: 24px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 18px 29px 18px 29px;
+border-radius: 8px;
+margin: 0 auto;
+background: rgb(82, 195, 3);
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+#hero{
+    height:615px;
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%) ,url(assets/hero-bg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.parent{
+    width: 300px;
+}
+.parent .subtitle{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+}
+.parent .title{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 25px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+}
+.parent .description{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 15px;
+font-weight: 300;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+}
